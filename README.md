@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Code Companion: AI-Powered Debugging Assistant
+
+Code Companion is a modern web application that uses AI to help developers debug, analyze, and improve their code. With features like real-time bug detection, code suggestions, and an AI chatbot assistant, it streamlines the debugging process and helps developers write better code.
+
+![Code Companion](https://placeholder-for-screenshot.com/code-companion-screenshot.png)
+
+## Features
+
+- **Multimodal Code Input**
+
+  - Drag & Drop support for files and folders
+  - GitHub repository URL integration
+  - Multiple programming language support
+
+- **AI-Powered Analysis**
+
+  - Automatic bug detection and suggestions
+  - Real-time code improvements
+  - Severity-based issue categorization
+
+- **Interactive Editor**
+
+  - Monaco Editor (VS Code-like) integration
+  - Theme switching (light/dark)
+  - Line number toggling
+  - Code formatting
+  - Copy to clipboard functionality
+  - Accept/Reject/Modify suggestions inline
+  - One-click "Fix All" option
+
+- **Intelligent Chat Assistant**
+  - Contextual coding help
+  - Syntax highlighted code snippets in responses
+  - Persistent conversation history
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/code-companion.git
+cd code-companion
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables
+   Create a `.env.local` file in the root directory with the following variables:
+
+```
+NEXT_PUBLIC_GOOGLE_API_KEY=your_google_ai_key
+NEXT_PUBLIC_OPENAI_API_KEY=your_openai_key
+```
+
+4. Start the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS, Framer Motion
+- **Editor**: Monaco Editor
+- **AI Integration**: Langchain, Google Generative AI, OpenAI
+- **File Handling**: JSZip, react-dropzone
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the **Code Companion Personal Project License** - see the [LICENSE](LICENSE) file for details. This custom license:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Permits display in portfolios, resumes, and job applications
+- Acknowledges the use of third-party open-source components
+- Covers usage of AI services and APIs
+- Clarifies attribution requirements
+- Restricts redistribution without permission

@@ -1,0 +1,32 @@
+Code Companion Personal Project License
+
+Copyright (c) 2025 Aadarsh K
+
+1. Personal Project and Portfolio Usage
+   This software and associated documentation files (the "Code Companion"), is created as a personal project by Aadarsh K. The owner grants permission to:
+
+   - Display this project in personal portfolios, resumes, and job applications
+   - Demonstrate this project in presentations, interviews, and educational contexts
+   - Share screenshots, videos, and descriptions of this project for professional advancement
+
+2. Third-Party Components and Dependencies
+   This project incorporates open-source libraries and frameworks, each governed by their respective licenses:
+
+   - Next.js, React, Tailwind CSS, Monaco Editor, LangChain, and other npm packages are used under their respective MIT or similar open-source licenses
+   - AI services from Google Generative AI and/or OpenAI are used in accordance with their terms of service
+   - Code snippets and examples may be inspired by or adapted from public documentation, tutorials, and open-source repositories
+
+3. Attribution
+   When displaying or sharing this project, no additional attribution is required beyond maintaining this license file and any attributions required by the licenses of incorporated third-party components.
+
+4. Disclaimer
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. Redistribution
+   Redistribution of this software in source or binary forms, with or without modification, is not permitted without explicit permission from the owner.
+
+6. AI Service Usage
+   Usage of AI services within this application is subject to the terms and conditions of those services. Users who deploy this application must provide their own API keys and ensure compliance with AI service provider terms.
+
+7. Acknowledgment
+   By using, viewing, or accessing this project, you acknowledge that it is a personal project created for demonstration and educational purposes.
