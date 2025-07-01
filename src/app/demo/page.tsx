@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FaRobot, FaCode, FaTools, FaBrain, FaGithub, FaStar } from 'react-icons/fa';
