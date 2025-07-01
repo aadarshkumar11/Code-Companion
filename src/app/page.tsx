@@ -70,7 +70,7 @@ export default function Home() {
     setError(null);
     
     try {
-      // Simulate GitHub API call delay
+      // Simulate GitHub API call delay with a timeout
       await new Promise(resolve => setTimeout(resolve, 2000));
       
       // Sample data
