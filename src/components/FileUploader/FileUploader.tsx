@@ -8,7 +8,7 @@ import { fetchFromGitHub } from '@/lib/utils/fileUtils';
 interface FileUploaderProps {
   onFilesUploaded: (files: { name: string; content: string }[]) => void;
   onFolderUploaded: (files: { path: string; name: string; content: string }[]) => void;
-  onGitHubUrlSubmit?: (url: string) => void;
+  onGitHubUrlSubmit?: () => void;
 }
 
 const FileUploader: React.FC<FileUploaderProps> = ({
@@ -135,7 +135,7 @@ const FileUploader: React.FC<FileUploaderProps> = ({
       
       // Also call the callback if provided (for compatibility)
       if (onGitHubUrlSubmit) {
-        onGitHubUrlSubmit(githubUrl);
+        onGitHubUrlSubmit();
       }
       
       setGithubUrl('');

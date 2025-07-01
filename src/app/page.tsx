@@ -63,7 +63,7 @@ export default function Home() {
     }
   };
 
-  const handleGitHubUrlSubmit = async (_url: string) => {
+  const handleGitHubUrlSubmit = async () => {
     // In a real implementation, this would use the fileUtils.fetchFromGitHub function
     // but for now we'll just simulate it
     setIsAnalyzing(true);
@@ -111,7 +111,8 @@ function processData(data) {
       setFilename('sample.js');
       setLanguage('javascript');
       
-    } catch (_err) {
+    } catch (err) {
+      console.error('GitHub URL error:', err);
       setError('Failed to fetch from GitHub. Please check the URL and try again.');
     } finally {
       setIsAnalyzing(false);
